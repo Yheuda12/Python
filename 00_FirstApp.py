@@ -1,11 +1,12 @@
 
 
-a=1
-b=a
-a=5
-print("a= {} b = {}".format(a,b) , end=" " )
-print("Hello")
-
+a=2
+c=a * 2
+if a == c: 
+    b = 3
+else:
+    b = 0
+print("b = {}".format(b) , end=" " )
 
 """
 OUTPUT
@@ -14,17 +15,6 @@ a= 5 b = 1 Hello
 """
 
 
-
-
-print("a= {} b = {}".format(a,b) )
-print("Hello")
-
-"""
-OUTPUT
-___________________________
-a= 5 b = 1
-Hello
-"""
 
 """--------------- loop -----------------"""
 
